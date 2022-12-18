@@ -1,4 +1,5 @@
 local monitor = peripheral.find("monitor")
+local w, h = monitor.getSize()
 
 if monitor == nil then
 	error("No monitor found")
@@ -14,4 +15,4 @@ local function drawBar(x, y, width, height, color)
 	end
 end
 
-drawBar(1, 1, 20, 10, colors.red)
+drawBar(x / 2, w / 2, 20, 10, colors.red)
