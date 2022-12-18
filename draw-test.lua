@@ -7,6 +7,7 @@ end
 
 monitor.clear()
 monitor.setCursorPos(1, 1)
+
 local function drawBar(x, y, width, height, color)
 	monitor.setBackgroundColor(color)
 	for i = 0, height - 1 do
@@ -15,4 +16,4 @@ local function drawBar(x, y, width, height, color)
 	end
 end
 
-drawBar(h / 2, w / 2, 10, 10, colors.red)
+drawBar(h / 2, w / 2, 10, 10, colors.black)
