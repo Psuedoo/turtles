@@ -15,4 +15,4 @@ local function drawBar(x, y, width, height, color)
 	end
 end
 
-drawBar(x / 2, w / 2, 20, 10, colors.red)
+drawBar(h / 2, w / 2, 10, 10, colors.red)
