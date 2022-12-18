@@ -1,4 +1,4 @@
-local chest = peripheral.find("functionalstorage:storage_controller")
+local chest = peripheral.find("refinedstorage:disk_drive")
 local monitor = peripheral.find("monitor")
 
 monitor.clear()
